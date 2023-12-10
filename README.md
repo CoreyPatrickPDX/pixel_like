@@ -10,19 +10,22 @@ This project is a simple 2D game implemented using the Godot game engine and Rus
 
 1. **Install Rust:** Make sure you have Rust installed on your system. You can find instructions at [Rust Installation Guide](https://www.rust-lang.org/learn/get-started).
 
-2. **Clone the Repository:** Clone this repository to your local machine.
+2. **Install Godot:** Make sure to have the latest Godot 3 installed which you can find at [Download Godot 3 for Windows](https://godotengine.org/download/3.x/windows/)
+
+3. **Clone the Repository:** Clone this repository to your local machine.
 
    ```bash
    git clone https://github.com/CoreyPatrickPDX/pixel_like.git
    cd pixel_like
    ```
-3. **Build the Project:** Use Cargo, the Rust package manager, to build the project.
+4. **Build the Project:** Use Cargo, the Rust package manager, to build the project.
 
    ```bash
    cargo build --release
    ```
-4. **Run the Godot Project:** Open the Godot game engine and load the project located in the godot_project directory.
-5. **Play the Game:** Press the "Play" button in the Godot editor to run the game. Use arrow keys to control the player character.
+5. **DLL File:** Copy the pixel_lite.dll file from the rust/release folder into the /godot/ folder.
+6. **Run the Godot Project:** Open the Godot game engine and load the project located in the godot_project directory.
+7. **Play the Game:** Press the "Play" button in the Godot editor to run the game. Use arrow keys to control the player character.
 
 ### Testing
 Testing was conducted using the following methods:
