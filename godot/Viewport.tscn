@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Enemy.gdns" type="Script" id=1]
+[ext_resource path="res://Player.gdns" type="Script" id=2]
+
+[node name="Viewport" type="Viewport"]
+size = Vector2( 1920, 1080 )
+size_override_stretch = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Player" type="Node2D" parent="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="Enemy" type="Node2D" parent="CanvasLayer"]
+script = ExtResource( 1 )
